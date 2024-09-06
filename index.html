@@ -131,93 +131,40 @@
         </div>
 
         <div id="meal-items">
-          <!-- Item 1 -->
-          <div class="card my-2">
-            <div class="card-body">
-              <div class="d-flex align-items-center justify-content-between">
-                <h4 class="mx-1">Breakfast</h4>
-                <div class="fs-1 bg-primary text-white text-center rounded-2 px-2 px-sm-5">
-                  350
-                </div>
-                <button class="delete btn btn-danger btn-sm mx-2">
-                  <i class="fa-solid fa-xmark"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-          <!-- Item 2 -->
-          <div class="card my-2">
-            <div class="card-body">
-              <div class="d-flex align-items-center justify-content-between">
-                <h4 class="mx-1">Lunch</h4>
-                <div class="fs-1 bg-primary text-white text-center rounded-2 px-2 px-sm-5">
-                  620
-                </div>
-                <button class="delete btn btn-danger btn-sm mx-2">
-                  <i class="fa-solid fa-xmark"></i>
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <!-- Workout -->
-      <div class="col-md-6">
-        <div class="d-flex align-items-center">
-          <h2 class="border-start border-secondary border-3 p-2">
-            Workouts
-          </h2>
-          <button class="btn btn-secondary btn-sm ms-auto text-white fw-bold py-2 px-3 h-100" data-bs-toggle="collapse"
-            data-bs-target="#collapse-workout" aria-expanded="false" aria-controls="collapse-workout">
-            <i class="fa-solid fa-plus"></i> Add Workout
-          </button>
-        </div>
 
-        <!-- Add Workout Form -->
-        <div class="collapse" id="collapse-workout">
-          <div class="card card-body bg-light">
-            <form id="workout-form">
-              <div class="mb-3">
-                <input type="text" class="form-control" id="workout-name" placeholder="Enter Workout" />
-              </div>
-              <div class="mb-3">
-                <input type="number" class="form-control" id="workout-calories" placeholder="Enter Calories" />
-              </div>
-              <button type="submit" class="btn btn-primary text-white">
-                Add Workout Item
-              </button>
-            </form>
-          </div>
         </div>
+        <!-- Workout -->
+        <div class="col-md-6">
+          <div class="d-flex align-items-center">
+            <h2 class="border-start border-secondary border-3 p-2">
+              Workouts
+            </h2>
+            <button class="btn btn-secondary btn-sm ms-auto text-white fw-bold py-2 px-3 h-100"
+              data-bs-toggle="collapse" data-bs-target="#collapse-workout" aria-expanded="false"
+              aria-controls="collapse-workout">
+              <i class="fa-solid fa-plus"></i> Add Workout
+            </button>
+          </div>
 
-        <div id="workout-items">
-          <!-- Item 1 -->
-          <div class="card my-2">
-            <div class="card-body">
-              <div class="d-flex align-items-center justify-content-between">
-                <h4 class="mx-1">Treadmill 1 Hour</h4>
-                <div class="fs-1 bg-secondary text-white text-center rounded-2 px-2 px-sm-5">
-                  400
+          <!-- Add Workout Form -->
+          <div class="collapse" id="collapse-workout">
+            <div class="card card-body bg-light">
+              <form id="workout-form">
+                <div class="mb-3">
+                  <input type="text" class="form-control" id="workout-name" placeholder="Enter Workout" />
                 </div>
-                <button class="delete btn btn-danger btn-sm mx-2">
-                  <i class="fa-solid fa-xmark"></i>
+                <div class="mb-3">
+                  <input type="number" class="form-control" id="workout-calories" placeholder="Enter Calories" />
+                </div>
+                <button type="submit" class="btn btn-primary text-white">
+                  Add Workout Item
                 </button>
-              </div>
+              </form>
             </div>
           </div>
-          <!-- Item 2 -->
-          <div class="card my-2">
-            <div class="card-body">
-              <div class="d-flex align-items-center justify-content-between">
-                <h4 class="mx-1">Bike 90 Minutes</h4>
-                <div class="fs-1 lg bg-secondary text-white text-center rounded-2 px-2 px-sm-5">
-                  500
-                </div>
-                <button class="delete btn btn-danger btn-sm mx-2">
-                  <i class="fa-solid fa-xmark"></i>
-                </button>
-              </div>
-            </div>
+
+          <div id="workout-items">
+
           </div>
         </div>
       </div>
